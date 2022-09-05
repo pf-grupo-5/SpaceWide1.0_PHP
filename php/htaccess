@@ -1,0 +1,14 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+ErrorDocument 400 /erro.php
+ErrorDocument 401 /erro.php
+ErrorDocument 403 /erro.php
+ErrorDocument 404 /erro.php
+ErrorDocument 500 /erro.php

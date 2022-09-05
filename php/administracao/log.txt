@@ -1,0 +1,2 @@
+14 - sandro renato de souza maia | DELETE FROM obra_artistica WHERE id IN (75,74) - 04/09/2022-22:08:58
+ 
